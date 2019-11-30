@@ -54,6 +54,10 @@ span {
   font-size: 24px;
   padding-bottom: 1.3rem; }
 
+.fab {
+  font-size: 24px;
+  color: darkgray; }
+
 @media only screen and (max-width: 656px) {
   #home-section .display-4 {
     font-size: 48px !important; }
@@ -62,5 +66,11 @@ span {
     padding-top: 32px;
     padding-bottom: 80px; }
 
+  #why-us {
+    padding-bottom: 0 !important; }
+
   .p-resp {
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .p-0-resp {
+    padding-right: 0 !important; } }
