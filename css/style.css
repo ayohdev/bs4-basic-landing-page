@@ -1,3 +1,14 @@
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: 'Varela Round', sans-serif; }
+
+p,
+span {
+  font-family: 'Roboto', sans-serif; }
+
 #header-section {
   min-height: 540px; }
 
