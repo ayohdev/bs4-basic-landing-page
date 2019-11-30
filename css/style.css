@@ -9,8 +9,24 @@ p,
 span {
   font-family: 'Roboto', sans-serif; }
 
-#header-section {
-  min-height: 540px; }
+#home-section {
+  min-height: 700px;
+  background: url("https://source.unsplash.com/random/1980x760") center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: rgba(255, 255, 255, 0.6); }
+
+#home-section .home-inner {
+  padding-top: 150px;
+  min-height: 640px; }
 
 .card-resp {
   padding-top: 3rem; }
@@ -27,5 +43,8 @@ span {
   padding-right: 16px; }
 
 @media only screen and (max-width: 656px) {
+  #home-section .display-4 {
+    font-size: 48px !important; }
+
   .p-resp {
     width: 100% !important; } }
