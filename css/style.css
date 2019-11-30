@@ -42,9 +42,25 @@ span {
   content: '\f007';
   padding-right: 16px; }
 
+.about-subhead {
+  font-size: 18px;
+  line-height: 1.8rem; }
+
+#services .services-container {
+  padding-top: 40px;
+  padding-bottom: 120px; }
+
+.fas {
+  font-size: 24px;
+  padding-bottom: 1.3rem; }
+
 @media only screen and (max-width: 656px) {
   #home-section .display-4 {
     font-size: 48px !important; }
+
+  #services .services-container {
+    padding-top: 32px;
+    padding-bottom: 80px; }
 
   .p-resp {
     width: 100% !important; } }
