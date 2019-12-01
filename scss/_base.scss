@@ -1,0 +1,41 @@
+//Global text
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: 'Varela Round', sans-serif;
+}
+
+p,
+span {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-resp {
+  padding-top: 3rem;
+}
+
+.fas {
+  font-size: 24px;
+  padding-bottom: 1.3rem;
+}
+
+.fab {
+  font-size: 24px;
+  color: darkgray;
+}
+
+.p-resp {
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 656px) {
+  .p-resp {
+    width: 100% !important;
+  }
+
+  .p-0-resp {
+    padding-right: 0 !important;
+  }
+}
