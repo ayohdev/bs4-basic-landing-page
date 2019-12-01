@@ -88,8 +88,8 @@
                     harum maxime placeat fugit quis nemo hic laborum fugiat
                     aspernatur minus.
                   </p>
-                  <button href="#" class="btn btn-primary btn-lg">
-                    Learn More
+                  <button id="smooth" class="btn btn-primary btn-lg">
+                    <a href="#about" class="text-white">Learn More</a>
                   </button>
               </div>
             </div>
@@ -289,13 +289,13 @@
       </div>
     </section>
 
-    <!-- CALL TO ACTION -->
+    <!-- CONTACT -->
     <section id="contact" class="py-5 bg-dark text-white">
       <div class="container">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
             <h3 class="cta-title">
-              Call To Action
+              Contact Us
             </h3>
             <p class="lead cta-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
@@ -304,7 +304,8 @@
             </p>
           </div>
           <div class="col-lg-3 text-center align-self-center">
-            <a href="#" class="btn btn-outline-light">Call to Action</a>
+            <a href="#" class="btn btn-outline-light"             data-toggle="modal"
+            data-target="#getStarted">Send us a message</a>
           </div>
         </div>
       </div>
@@ -392,6 +393,25 @@
 
       // Smooth Scrolling
       $('#main-nav a').on('click', function(event) {
+        if (this.hash !== '') {
+          event.preventDefault();
+
+          const hash = this.hash;
+
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top
+            },
+            800,
+            function() {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+
+    // Smooth Scrolling
+            $('#smooth a').on('click', function(event) {
         if (this.hash !== '') {
           event.preventDefault();
 

@@ -23,6 +23,9 @@ span {
 .p-resp {
   width: 100% !important; }
 
+button a:hover {
+  text-decoration: none; }
+
 @media only screen and (max-width: 656px) {
   .p-resp {
     width: 100% !important; }
@@ -51,6 +54,10 @@ span {
 @media only screen and (max-width: 656px) {
   #hero-section .display-4 {
     font-size: 48px !important; } }
+#about {
+  padding-top: 150px !important;
+  padding-bottom: 150px !important; }
+
 .about-subhead {
   font-size: 18px;
   line-height: 1.8rem; }
