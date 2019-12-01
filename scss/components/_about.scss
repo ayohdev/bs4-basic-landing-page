@@ -1,10 +1,14 @@
+//About Us
+#about {
+  padding-top: 150px !important;
+  padding-bottom: 150px !important;
+}
 .about-subhead {
   font-size: 18px;
   line-height: 1.8rem;
 }
 
 //Why Choose Us?
-
 #why-us {
   .icon {
     &:before {
@@ -22,6 +26,7 @@
 }
 
 @media only screen and (max-width: 656px) {
+  //Why Us
   #why-us {
     padding-bottom: 0 !important;
   }

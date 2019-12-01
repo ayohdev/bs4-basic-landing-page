@@ -30,6 +30,11 @@ span {
   width: 100% !important;
 }
 
+//Buttons
+button a:hover {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 656px) {
   .p-resp {
     width: 100% !important;
